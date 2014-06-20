@@ -14,7 +14,8 @@
 ActiveRecord::Schema.define(version: 20140620225955) do
 
   create_table "notes", force: true do |t|
-    t.string   "text"
+    t.text     "text"
+    t.date     "date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

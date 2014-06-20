@@ -15,6 +15,7 @@ gem 'compass-rails'
 group :development do
   gem 'spring'
   gem 'debugger'
+  gem 'pry'
 end
 
 # Use unicorn as the app server
