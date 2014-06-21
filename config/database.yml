@@ -19,10 +19,9 @@ test:
   socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  reconnect: true
   database: myday_production
   pool: 5
-  username: xnotifyc_rasiel
-  password: 184418
+  username: rasiel
+  password: password

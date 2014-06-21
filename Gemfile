@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.0.beta1'
 
-gem 'mysql2'
-gem 'pg'
-
 gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'haml', '~> 4.0.5'
 gem 'uglifier', '>= 1.3.0'
@@ -14,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'compass-rails'
 
 group :development do
+  gem 'mysql2'
   gem 'spring'
   gem 'debugger'
   gem 'pry'
@@ -21,6 +19,7 @@ group :development do
 end
 
 group :production do
+  gem 'pg'
   gem 'rails_12factor'
 end
 
