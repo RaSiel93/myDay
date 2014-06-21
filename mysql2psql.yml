@@ -1,0 +1,15 @@
+mysql:
+ hostname: localhost
+ port: 3306
+ socket: /var/run/mysqld/mysqld.sock
+ username: admin
+ password: password
+ database: myday_development
+
+destination:
+ postgres:
+  hostname: localhost
+  port: 5432
+  username: rasiel
+  password: password
+  database: myday_production

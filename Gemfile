@@ -16,6 +16,7 @@ group :development do
   gem 'spring'
   gem 'debugger'
   gem 'pry'
+  gem 'mysql2psql'
 end
 
 group :production do
