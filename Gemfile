@@ -21,6 +21,7 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 # Use unicorn as the app server

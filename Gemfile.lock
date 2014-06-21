@@ -148,6 +148,7 @@ DEPENDENCIES
   jquery-rails
   mysql2
   mysql2psql
+  pg
   pry
   rails (= 4.1.0.beta1)
   rails_12factor
