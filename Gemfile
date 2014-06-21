@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0.beta1'
 
 gem 'mysql2'
+gem 'pg'
 
 gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'haml', '~> 4.0.5'
@@ -21,7 +22,6 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
 end
 
 # Use unicorn as the app server
